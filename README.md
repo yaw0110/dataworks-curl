@@ -2,10 +2,6 @@
 
 阿里云 DataWorks Data Studio 自动化查数 CLI（Go，无第三方依赖）。
 
-把浏览器抓到的三个接口封装成一条命令：`createExecutorJobV3` 创建查询任务，轮询
-`getExecutorJobResult` 拿结果集，结果为空/失败时再用 `getExecutorJobLog` 判定状态。
-每条 SQL 会自动在开头补上必带的 `SET odps.namespace.schema=TRUE ;`。
-
 ## 安装
 
 ```bash
