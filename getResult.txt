@@ -1,0 +1,19 @@
+curl --url 'https://bff-cn-hangzhou.data.aliyun.com/v1/getExecutorJobResult?code=unified-eb89da02-7f8d-408e-8012-e361ceb0da35&index=0&extend=true' \
+  -H 'accept: */*' \
+  -H 'accept-language: zh-CN,zh;q=0.9' \
+  -H 'b3: 63d4808e56dc1dd6fd77ce965ce1c073-da1eba175d6d9a92-1' \
+  -b 'currentRegionId=cn-hangzhou; aliyun_country=CN; cna=WDUlIzBYLQgCAXjFQoyw+fby; cnaui=202950341597718306; aui=202950341597718306; yunpk=1645446608222577; aliyun_lang=zh; aliyun_site=CN; partitioned_cookie_flag=doubleRemove; login_aliyunid_csrf=_csrf_tk_1536789624942493; login_aliyunid="yanjianhao @ qdama"; login_aliyunid_ticket=3SAW2yxnMCnjYw2452ZLYAoA.1118Hx7vJi75kLC2fXVSJptRoBB4sA68LbAC2fETUysDT7AHFRv3DZnJ6VrqV53QKXDkJ28JYYuVx1GaNcoReK3WDU7zHWqWNiFURTuu4m1xdFvZcG8aELX1x6JTHvwgAr75tsnDW8zGLKj5S7dcjpExS22Hr3Fp6jvEg2VydMdZaVrCM3y.1QDta7czC8Y47p5gg2mV5AvRy4f7BghbH43YAAcLGq7ys7o4nnEXPMiLPYB97N7RX; login_aliyunid_sc=3R5H3e3HY2c8gwLZuY5GmS7K.1113h7GFMg4PABhMXXE8HL8Nm1tSgcU9YZs68Q8E9sZAkkVTsLYtG1r385zkiRyw6UzuyZ.1QDta7dCGyuPeswRtGFztcdjdfTjY1Sho69rWt1xqjkKVYgPyrHcua5SbBV5H7jyo; login_aliyunid_pk=1645446608222577; login_current_pk=202950341597718306; dw_bff=202950341597718306.%E9%A2%9C%E5%81%A5%E8%B1%AA.212862176241921.1789624953501.1645446608222577..26842.OFFICIAL.18.1789657353501.yanjianhao.5.3.1789715706.zh_CN.3.e720c6f1d41f6b318e26cf4d49fe9e41; csrf_token=f3ddc4d0042c4b001789715754v313aefa35; isg=BHp6kcFoxFlFLUqB9EZg3dVJy6acK_4FqRzIS4RzI43YdxqxbLlHFOWVxQOrfHad; tfstk=gcOjAAXWShdrLquxXourOgKyEBCsY4lUXP_9-FF4WsCA51THfoSVQnS9FHx__qYtnVG6ue6NBmf213TBSISqjqXl1FKCjN54_fKW03Rw358T5NKy2h6ioGSOfh8934lETEYcs1KsYXlEwsoJlIsTb1Ccw6cWJxGETEYAs1nEYXJZR-_1jGCOHOFRwgbO6oKODTERRwfOXhKtPUIlW1I9X13WygbO6GK9yjMC52jXlbTG21YPeMLAV5F_-Z6AvXj765d5lkSplvVT6Q_fhQrgoT6C6KL2V9JjAS1ekpxGJnExcaOXRC9p2bPf1Upp1_d-2zSvKUO1gI3ZM_dXcIBWXP2lHpx2pTOrc7jpeUTNFL0g3GJhWhXH_DVcDFLHtp5I1P_WdUC54sPFAiu_Cz636asEP4wgI5G-tWHhz5fVHabXz4g7c16AraiIP4wgItQlzP0SPo11.' \
+  -H 'origin: https://dataworks.data.aliyun.com' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://dataworks.data.aliyun.com/' \
+  -H 'sec-ch-ua: "Google Chrome";v="153", "Not_A Brand";v="8", "Chromium";v="153"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'traceparent: 00-63d4808e56dc1dd6fd77ce965ce1c073-da1eba175d6d9a92-01' \
+  -H 'uber-trace-id: 63d4808e56dc1dd6fd77ce965ce1c073:da1eba175d6d9a92:0:1' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36' \
+  -H 'x-perf: appId=index.html&pageId=vscode-datastudio-webview.result&stage=2&pvId=hprZWB7Fdl5mJxagZWph' \
+  -H 'x-requested-with: XMLHttpRequest'

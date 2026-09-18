@@ -1,0 +1,8 @@
+curl --url 'https://bff-cn-hangzhou.data.aliyun.com/ide/createExecutorJobV3' \
+  -H 'x-csrf-token: f3ddc4d0042c4b001789715754v313aefa35' \
+  -H 'Referer: https://dataworks.data.aliyun.com/cn-hangzhou/ide' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36' \
+  -H 'accept: application/json' \
+  -H 'content-type: application/json' \
+  --data-raw '{"appName":"VS_CODE_IDE_PERSONAL_WORKSPACE","paramMap":{},"projectId":672230,"scriptContent":"SET odps.namespace.schema=TRUE ;\n\n-- show create table  bdprd.ods_member_db.t_member_alipay ;\n\nSHOW CREATE TABLE bdprd.ods_order_db.t_trade_order_item;","nodeType":10,"language":"odps-sql","dataSourceId":518134,"resourceGroupCode":"Serverless_res_group_212862176241921_808082136900256","expandMap":{"FILE_ID_KEY":"6900448627985495455","FILE_NAME_KEY":"untitled_2026_09_11_15_28_51"},"envMap":{"engineConfig":{},"executorConfig":{"cu":"0.25"},"version":2}}'
