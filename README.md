@@ -2,10 +2,6 @@
 
 阿里云 DataWorks Data Studio 自动化查数 CLI（Go，无第三方依赖）。
 
-把浏览器抓到的三个接口封装成一条命令：`createExecutorJobV3` 创建查询任务，轮询
-`getExecutorJobResult` 拿结果集，结果为空/失败时再用 `getExecutorJobLog` 判定状态。
-每条 SQL 会自动在开头补上必带的 `SET odps.namespace.schema=TRUE ;`。
-
 ## 安装
 
 ```bash
@@ -14,9 +10,7 @@ go build -o dataworks-cli .
 
 ## 准备登录态
 
-在 DataWorks Data Studio 页面打开 DevTools → Network，复制任意请求的 `Cookie`
-请求头（整段），粘贴进去即可。`x-csrf-token` 会自动从 Cookie 里的 `csrf_token=`
-提取，不用单独填。
+配置 Cookie 后，`x-csrf-token` 会自动从 Cookie 里的 `csrf_token=` 提取。
 
 ```bash
 ./dataworks-cli config --set-cookie 'currentRegionId=cn-hangzhou; csrf_token=xxxx; ...'
@@ -25,7 +19,7 @@ go build -o dataworks-cli .
 ./dataworks-cli config --set-cookie --file cookie.txt
 ```
 
-工作区参数（默认值来自抓包，按需覆盖）：
+工作区参数（按需覆盖）：
 
 ```bash
 ./dataworks-cli config set \
